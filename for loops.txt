@@ -20,3 +20,5 @@ for loop:
 for (let i=0; #initialization i < 10; #condition i++ #update) {
     console.log(i); #code
 }
+
+forEach Loop:
