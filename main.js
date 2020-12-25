@@ -6,8 +6,8 @@ const checkObj = {
   };
   
   let found = 0;
-  for (key in checkObj){
-    if (key === foundnum){
+  for (let property in checkObj){
+    if (property === "foundNum"){
       found = 1 
     }
   }
