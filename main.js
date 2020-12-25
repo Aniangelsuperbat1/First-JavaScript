@@ -1,20 +1,13 @@
-// // console.log("hello world");
-// // let home = "NYC"
-// // console.log(home)
-
-// // write your code below!
-// function happyHolidays() {
-//     return ("Happy holidays!")
-//   }
+const checkObj = {
+    oddNum: 1,
+    evenNum: 2,
+    foundNum: 5,
+    randomNum: 18
+  };
   
-//   function happyHolidaysTo(name) {
-//     return ("Happy Holidays, ${name}")
-//   }
-  
-//   happyHolidaysTo("Patrick")
-
-function say(greeting, firstName) {
-    return `${greeting}, ${firstName}!`
+  let found = 0;
+  for (key in checkObj){
+    if (key === foundnum){
+      found = 1 
+    }
   }
-
-  say("hello", "pat")

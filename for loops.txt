@@ -13,12 +13,16 @@ let i = 1000; #initialization
 do{
     console.log(i); #code
     i++; #update
-    while(i < 10); #condition
-}
+    } while(i < 10); #condition
+
 
 for loop:
 for (let i=0; #initialization i < 10; #condition i++ #update) {
     console.log(i); #code
 }
 
-forEach Loop:
+for of Loop:
+let names = ["john", "pat", "adora"]
+for (name of names){
+    console.log(name)
+}
