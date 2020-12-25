@@ -26,3 +26,6 @@ let names = ["john", "pat", "adora"]
 for (name of names){
     console.log(name)
 }
+
+let user = {firstName: "John", lastName: "Wayne"}
+for (key in user) console.log(user[key]) = John, Wayne
