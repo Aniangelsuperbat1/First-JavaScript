@@ -35,3 +35,14 @@ let animals = ["cat", "dog", "lizard", "grasshopper"]
 animals.forEach(animal => {
     console.log(animal);
 })
+
+for in loop:
+let myObj = {
+    a: 1,
+    b: 2,
+    c: 3
+};
+
+for(let property in myObj){
+    console.log(`property: ${property}, value: ${myObj[property]}`)
+}
