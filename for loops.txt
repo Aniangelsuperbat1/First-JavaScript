@@ -41,5 +41,5 @@ let monsters ={ Canada: goose, Nepal: yeti, scotland: loch ness}
 }
 
 for (let elem in monsters){
-    console.log(`In ${elem} we have the ${monsters[prop]});
+    console.log(`In ${elem} we have the ${monsters[elem]});
 }
