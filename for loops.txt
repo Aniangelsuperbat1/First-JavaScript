@@ -37,7 +37,7 @@ animals.forEach(animal => {
 })
 
 for in loop:
-let monsters ={ Canada: goose, Nepal: yeti, scotland: loch ness}
+let monsters ={ Canada: goose, Nepal: yeti, scotland: loch ness, United States: bigfoot}
 }
 
 for (let elem in monsters){
