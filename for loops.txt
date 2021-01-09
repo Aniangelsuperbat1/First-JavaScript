@@ -31,7 +31,7 @@ let user = {firstName: "John", lastName: "Wayne"}
 for (key in user) console.log(user[key]) = John, Wayne
 
 forEach Loop:
-let animals = ["cat", "dog", "lizard", "grasshopper"]
+let animals = ["cat", "dog", "lizard", "grasshopper", "dragon"]
 animals.forEach(animal => {
     console.log(animal);
 })
